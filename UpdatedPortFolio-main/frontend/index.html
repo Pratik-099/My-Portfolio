@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pratik Joshi | Portfolio</title>
+    
+
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Slick Carousel JS -->
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script defer src="script.js"></script>
+
+</head>
+
+<body>
+    <div class="cursor-gradient" id="cursorEffect"></div>
+
+    <header class="header">
+        <nav class="nav">
+            <div class="logo">Pratik Joshi</div>
+            <div class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <!-- <li><a href="contact.html">Get In Touch</a></li> -->
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Hi, I'm Pratik</h1>
+            <h1 style="color: #38bdf8;">I build clean and modern web experiences</h1>
+            <p>I’m a frontend developer passionate about building responsive and user-friendly websites. I focus on
+                writing clean code, improving user experience, and turning ideas into simple, effective digital
+                solutions. I enjoy learning modern technologies and creating projects that help me grow as a developer.
+                Let’s build something great together.</p>
+            <button class="resume-button" onclick="downloadResume()">
+                <i class="fas fa-file-download"></i> Download Resume
+            </button>
+
+        </div>
+    </section>
+
+
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>Hi! I’m a frontend developer with hands-on experience building responsive and functional websites. I work
+            with HTML, CSS, JavaScript, React, and modern UI frameworks. I enjoy designing clean interfaces, integrating
+            APIs, and writing maintainable code. I believe in continuous learning and improving my skills to deliver
+            better user experiences.</p>
+    </section>
+
+    <section id="trust" class="section">
+        <h2>Why Trust Me?</h2>
+        <div class="trust-grid">
+            <div class="trust-item">
+                <i class="fas fa-code"></i>
+                <h3>Strong Foundation</h3>
+                <p>Good understanding of full-stack development and the ability to convert ideas into working projects.
+                </p>
+            </div>
+            <div class="trust-item">
+                <i class="fas fa-bolt"></i>
+                <h3>Dedicated & Hardworking</h3>
+                <p>I focus on writing clean code and delivering work on time.</p>
+            </div>
+            <div class="trust-item">
+                <i class="fas fa-user-check"></i>
+                <h3>Client-Focused Approach</h3>
+                <p>I listen carefully, communicate clearly, and work according to your goals.</p>
+            </div>
+            <div class="trust-item">
+                <i class="fas fa-rocket"></i>
+                <h3>Always Improving</h3>
+                <p>Actively learning new tools, technologies, and best practices every day.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="skills" class="section">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-item">💻 HTML</div>
+            <div class="skill-item">🎨 CSS</div>
+            <div class="skill-item">⚡ JavaScript</div>
+            <div class="skill-item">⚛️ React</div>
+
+        </div>
+    </section>
+
+    <section id="experience" class="section">
+        <h2>Experience</h2>
+        <div class="experience-entry">
+            <h3>Internship @ Samyak IT Solution</h3>
+            <p> Sep 2023 - Nov 2023</p>
+            <p>
+                Worked on building responsive webpages using HTML, CSS, JavaScript, and Bootstrap. Fixed UI issues,
+                improved layouts, and assisted in creating reusable components. Gained practical experience in React
+                basics and cross-browser compatibility.
+            </p>
+        </div>
+
+
+
+
+
+    </section>
+    <section id="services" class="section">
+        <h2>My Services</h2>
+        <p>Offering professional services to help you grow your business online.</p>
+        <div class="services-grid">
+            <!-- Web Development -->
+            <div class="service-item">
+                <div class="service-icon">
+                    <i class="fas fa-laptop-code"></i>
+                </div>
+                <h3>Web Development</h3>
+                <p>I specialize in creating dynamic, responsive, and user-friendly websites tailored to your business
+                    needs. From front-end to back-end, I ensure your website is built with modern best practices.</p>
+            </div>
+
+            <!-- Social Media Post Design -->
+            <div class="service-item">
+                <div class="service-icon">
+                    <i class="fas fa-images"></i>
+                </div>
+                <h3>Social Media Post Design</h3>
+                <p>Engage your audience with creative and eye-catching social media posts. I design custom visuals that
+                    align with your brand identity and marketing goals.</p>
+            </div>
+
+            <!-- Info Site -->
+            <div class="service-item">
+                <div class="service-icon">
+                    <i class="fas fa-info-circle"></i>
+                </div>
+                <h3>Info Sites</h3>
+                <p>Need a simple and informative website? I create clean and effective info sites that deliver your
+                    message clearly and effectively to your target audience.</p>
+            </div>
+
+            <!-- Landing Page -->
+            <div class="service-item">
+                <div class="service-icon">
+                    <i class="fas fa-bullseye"></i>
+                </div>
+                <h3>Landing Page</h3>
+                <p>Convert visitors into customers with a well-designed landing page. I design landing pages that are
+                    optimized for high conversion rates and tailored to your business objectives.</p>
+            </div>
+
+            <!-- Portfolio -->
+            <div class="service-item">
+                <div class="service-icon">
+                    <i class="fas fa-briefcase"></i>
+                </div>
+                <h3>Portfolio</h3>
+                <p>Showcase your work with a professional portfolio. I help you create portfolios that highlight your
+                    skills and previous projects to attract clients and employers.</p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="projects" class="section">
+        <h2>Projects & Contributions</h2>
+        <div class="projects-container">
+            <div class="project-card">
+                <h3>Personal Portfolio</h3>
+                <!-- <span class="role-highlight"><strong>Role:</strong> Frontend Developer.</span><br /> -->
+                <p>
+                    Built using HTML, CSS, JavaScript
+                    Fully responsive UI
+                    Showcases skills, projects, and contact section
+                    Smooth animations and clean layout
+                </p>
+
+            </div>
+
+            <div class="project-card">
+                <h3>Landing Page Website </h3>
+                <!-- <span class="role-highlight"><strong>Role:</strong> Frontend Developer.</span><br /> -->
+                <p>
+                    Modern & attractive hero section
+                    Responsive grid layout
+                    Fast loading speed
+                    Designed for conversions.
+                </p>
+                
+            </div>
+
+
+        </div>
+
+
+    </section>
+
+    <!-- <section id="graphics-gallery" class="section">
+        <h2>Graphics Gallery</h2>
+        <p>Showcasing my creativity through social media design and visual content.</p>
+
+        <div class="graphics-intro">
+            <p>
+                I design stunning and engaging social media posts tailored for platforms like Instagram, Facebook, and
+                LinkedIn. These include product promotions, event posters, festival greetings, and more.
+            </p>
+            <ul class="design-highlights">
+                <li> Brand-focused and aesthetic visuals</li>
+                <li> Event, product, and festival posts</li>
+                <li> Designed with Photoshop, Illustrator & Canva</li>
+            </ul>
+        </div>
+
+        <div class="graphic-slider">
+            <div><img src="Image/Coca1.jpg" alt="Graphic 1"></div>
+            <div><img src="Image/Hed.jpg" alt="Graphic 2"></div>
+            <div><img src="Image/sho1.png" alt="Graphic 3"></div>
+            <div><img src="Image/Tour.png" alt="Graphic 4"></div>
+            <div><img src="Image/WhatsApp Image 2024-03-19 at 23.08.55_e20f8bab.jpg" alt="Graphic 5"></div>
+        </div>
+    </section> -->
+
+
+
+
+
+   <section class="contact-container" id="contact">
+    <h2>Get In Touch</h2>
+    <form class="contact-form" id="contactForm">
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Your Name" required />
+      </div>
+
+      <div class="form-group">
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" placeholder="+91 9510206164" required />
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email Address</label>
+        <input type="email" id="email" placeholder="you@example.com" required />
+      </div>
+
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" rows="5" placeholder="Write your message..." required></textarea>
+      </div>
+
+      <div class="contact-buttons">
+        <button type="submit" class="btn-filled">Send Message</button>
+        <a href="index.html" class="btn-outline">Back</a>
+      </div>
+    </form>
+  </section>
+  <footer class="footer">
+    <p>Built by Pratik Joshi</p>
+    <div class="social-links">
+      
+      <a href="https://www.linkedin.com/in/pratik-joshi123" target="_blank"><i class="fab fa-linkedin"></i></a>
+
+    </div>
+  </footer>
+  <div id="popupContainer">
+    <div id="successPopup" class="popup">
+      Your message has been sent successfully!
+    </div>
+  </div>
+
+  </footer>
+
+  <div id="successPopup" class="popup hidden"></div>
+
+
+</body>
+<script>
+    function downloadResume() {
+        const link = document.createElement('a');
+        link.href = 'Pratik_Joshi.pdf'; // 🔁 Make sure this path is correct
+        link.download = 'Pratik_Joshi.pdf';
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    }
+
+    $(document).ready(function () {
+        $('.graphic-slider').slick({
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 0,
+            speed: 3000,
+            cssEase: 'linear',
+            infinite: true,
+            arrows: false,
+            pauseOnHover: false
+        });
+    });
+
+
+</script>
+
+</html>
